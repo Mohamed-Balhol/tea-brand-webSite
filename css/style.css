@@ -204,3 +204,21 @@ nav {
 }
 
 /*   نهاية القسم الخاص لدعاء الكثيري */
+
+/*   بداية القسم الخاص بالشيماء بكير */
+.wholesalers-section .container{
+display: flex;
+align-items: center;
+gap:2rem;
+}
+.wholesalers-content,
+ .wholesalers-image{
+flex:1;
+}
+.wholesalers-image img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*   نهاية القسم الخاص بالشيماء بكير */
+
