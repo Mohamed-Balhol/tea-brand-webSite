@@ -7,6 +7,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex: 1;
 }
 
 /*  بداية القسم الخاص بمحمد بلحول */
@@ -38,8 +44,16 @@ nav {
   display: flex;
   align-items: center;
   gap: 12px;
+  text-decoration: none;
+  color: #222;
 }
-
+.Logo:visited {
+  color: #222;
+}
+.Logo:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+}
 .Logo img {
   width: 48px;
   height: 48px;
@@ -183,10 +197,10 @@ nav {
   font-size: 14px;
 }
 .icon-image {
-width: 16px;
-height: 16px;
-object-fit: contain;
-margin-top: 2px;
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-top: 2px;
 }
 
 /*   نهاية القسم الخاص لدعاء الكثيري */
