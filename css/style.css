@@ -206,19 +206,82 @@ nav {
 /*   نهاية القسم الخاص لدعاء الكثيري */
 
 /*   بداية القسم الخاص بالشيماء بكير */
-.wholesalers-section .container{
-display: flex;
-align-items: center;
-gap:2rem;
-}
-.wholesalers-content,
- .wholesalers-image{
-flex:1;
-}
-.wholesalers-image img{
+
+.wholesalers-section {
   width: 100%;
-  height: auto;
+  height: 750px;
+}
+
+.wholesalers-section .container {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+
+.wholesalers-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.wholesalers-title {
+  margin: 0 0 32px;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 32px;
+  font-weight: 400;
+
+  line-height: 1.2;
+
+  color: #171717;
+}
+
+.wholesalers-text {
+  width: 380px;
+
+  margin: 0 0 40px;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #171717;
+}
+
+.btn-secondary {
+  width: 360px;
+  height: 56px;
+
+  border: 1px solid #333;
+  background: transparent;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #171717;
+
+  cursor: pointer;
+}
+
+.wholesalers-image {
+  width: 100%;
+  height: 650px;
+}
+
+.wholesalers-image img {
+  width: 100%;
+  height: 100%;
+
   display: block;
+
+  object-fit: cover;
+  object-position: center;
 }
 /*   نهاية القسم الخاص بالشيماء بكير */
-
