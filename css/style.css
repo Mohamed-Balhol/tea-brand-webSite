@@ -1,3 +1,182 @@
-/*  بداية القسم الخاص بمحمد بلحول */
+/*  بداية القسم الخاص بماريا عيشان*/
 
-/*   نهاية القسم الخاص بمحمد بلحول */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.product-details {
+    width: 1126px;
+    max-width: 95%;
+    margin: 111px auto 40px auto; /* Margin-top = 111px */
+    box-sizing: border-box;
+}
+
+
+.breadcrumb {
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+
+.product-container {
+    display: flex;
+    gap: 37px; 
+    align-items: flex-start;
+}
+
+
+.product-image {
+   width:300;
+   height:auto;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+    border-radius: 4px;
+    display: block;
+}
+
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #111;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+.product-tags {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #444;
+}
+
+.product-price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #111;
+}
+
+
+.product-variants .label {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.variant-buttons {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.variant-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 70px;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.variant-card svg {
+    margin-bottom: 4px;
+}
+
+.variant-card span {
+    font-size: 10px;
+    color: #666;
+    white-space: nowrap;
+}
+
+.variant-card.active {
+    border: 1.5px solid #222;
+    background-color: #F8F8F8;
+}
+
+.variant-card.active span {
+    color: #000;
+    font-weight: 600;
+}
+
+
+.product-actions {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 14px;
+    gap: 14px;
+    background-color: #fff;
+}
+
+.quantity button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.quantity span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.add-to-bag {
+    background-color: #2b384e;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 1000;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.add-to-bag:hover {
+    background-color: #1c2636;
+}
+
+/*   نهاية القسم الخاص بماريا عيشان*/
