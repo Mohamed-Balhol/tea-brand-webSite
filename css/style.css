@@ -363,3 +363,157 @@ nav {
   object-position: center;
 }
 /*   نهاية القسم الخاص بالشيماء بكير */
+
+/* بداية القسم الخاص بغريبة المنهالي */ 
+
+.account-container {
+  display: flex;
+  justify-content: flex-start; 
+  padding-left: 76px;        
+  padding-top: 119px;        
+  box-sizing: border-box;
+}
+
+
+.account-card {
+  width: 552px;
+  height: 455px;
+  background-color: #F4F4F4; 
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  box-sizing: border-box;
+}
+
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.login-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #282828;
+  margin: 0;
+}
+
+.login-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #282828;
+  margin: 0;
+}
+
+/* حقول الإدخال */
+.input-field {
+  width: 100%;
+  height: 56px;
+  background-color: #FFFFFF;
+  border: 1px solid #282828;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.input-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.left-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.custom-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex: 1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #282828;
+}
+
+.custom-input::placeholder {
+  color: #282828;
+  opacity: 0.8;
+}
+
+.trailing-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  flex-shrink: 0;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #282828;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.checkbox-input {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  accent-color: #282828;
+  border: 1px solid #282828;
+}
+
+.forgot-password {
+  color: #C3B212;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
+}
+
+
+.submit-btn {
+  width: 100%;
+  height: 56px;
+  background-color: #282828;
+  color: #FFFFFF;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+/* نهاية القسم الخاص بغريبة المنهالي */
