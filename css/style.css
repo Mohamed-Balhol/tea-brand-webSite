@@ -212,3 +212,368 @@ body {
 }
 
 /*   نهاية القسم الخاص بماريا عيشان*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main-content {
+  flex: 1;
+}
+
+/*  بداية القسم الخاص بمحمد بلحول */
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 110px;
+  background: #fff;
+}
+
+/* Navbar */
+
+nav {
+  max-width: 1200px;
+  height: 100%;
+
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+
+.Logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #222;
+}
+.Logo:visited {
+  color: #222;
+}
+.Logo:hover {
+  opacity: 0.85;
+  transition: 0.3s;
+}
+.Logo img {
+  width: 48px;
+  height: 48px;
+}
+
+.Logo h1 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #222;
+  font-family: "Prosto One", sans-serif;
+}
+
+/* Links */
+
+.links {
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+
+  gap: 48px;
+}
+
+.links a {
+  text-decoration: none;
+
+  color: #222;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: #777;
+}
+
+/* Icons */
+
+.icons {
+  display: flex;
+  align-items: center;
+
+  gap: 28px;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons img {
+  width: 22px;
+  height: 22px;
+
+  transition: 0.3s;
+}
+
+.icons img:hover {
+  transform: scale(1.1);
+}
+/*   نهاية القسم الخاص بمحمد بلحول */
+
+/* بدية القسم الخاص ب عبدالرحمن بن بدر */
+
+/* Hero section */
+
+.hero-section {
+  width: 1204px;
+  min-height: 628px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+
+/* Hero Section Image */
+
+.hero-section-image {
+  flex: 0 0 auto;
+  width: 628px;
+  height: 628px;
+}
+
+.hero-section-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Hero Section Content */
+
+.hero-section-content {
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+  margin-top: 136px;
+  margin-bottom: 136px;
+  gap: 30px;
+}
+
+/* Heading */
+
+.hero-section-content h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  width: 456px;
+  height: 88px;
+  font-family: "Prosto One", sans-serif;
+}
+
+/* paragraphs */
+
+.hero-section-content p {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Prosto One", sans-serif;
+  line-height: 1.5;
+}
+
+/* Button */
+
+.hero-section-content a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 253px;
+  height: 56px;
+  box-sizing: border-box;
+  background: #262626;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* نهاية القسم الخاص ب عبدالرحمن بن بدر */
+
+/*   بداية القسم الخاص لدعاء الكثيري */
+.footer {
+  background-color: #f7f7f7;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-title {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  color: #222;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #555;
+  font-size: 14px;
+  transition: color 0.2s ease;
+}
+
+.footer-list a:hover {
+  color: #000;
+}
+
+.contact-info p {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 14px;
+  color: #555;
+  margin: 0 0 12px 0;
+  line-height: 1.4;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #555;
+}
+
+.contact-info a:hover {
+  color: #000;
+}
+
+.contact-info .icon {
+  font-size: 14px;
+}
+.icon-image {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  margin-top: 2px;
+}
+
+/*   نهاية القسم الخاص لدعاء الكثيري */
+
+/*   بداية القسم الخاص بالشيماء بكير */
+
+.wholesalers-section {
+  width: 100%;
+  height: 750px;
+}
+
+.wholesalers-section .container {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 48% 52%;
+}
+
+.wholesalers-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.wholesalers-title {
+  margin: 0 0 32px;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 32px;
+  font-weight: 400;
+
+  line-height: 1.2;
+
+  color: #171717;
+}
+
+.wholesalers-text {
+  width: 380px;
+
+  margin: 0 0 40px;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #171717;
+}
+
+.btn-secondary {
+  width: 360px;
+  height: 56px;
+
+  border: 1px solid #333;
+  background: transparent;
+
+  font-family: "Prosto One", sans-serif;
+
+  font-size: 14px;
+  font-weight: 400;
+
+  color: #171717;
+
+  cursor: pointer;
+}
+
+.wholesalers-image {
+  width: 100%;
+  height: 650px;
+}
+
+.wholesalers-image img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+  object-position: center;
+}
+/*   نهاية القسم الخاص بالشيماء بكير */
