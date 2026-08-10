@@ -634,6 +634,7 @@ nav {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
 }
 
 .checkout-stepper {
@@ -646,7 +647,6 @@ nav {
   letter-spacing: 1px;
   color: #a8a8a8;
   font-weight: 400;
-  font-family: Arial, sans-serif;
 }
 
 .checkout-stepper .step {
@@ -677,7 +677,6 @@ nav {
   align-items: flex-start;
   width: 100%;
   margin-bottom: 70px;
-  font-family: Arial, sans-serif;
 
 }
 
@@ -690,7 +689,6 @@ nav {
   font-weight: 500;
   margin-bottom: 25px;
   color: #222222;
-  font-family: Arial, sans-serif;
 }
 
 .info-block {
@@ -702,7 +700,6 @@ nav {
   color: #333333;
   font-weight: 500;
   margin-bottom: 4px;
-  font-family: Arial, sans-serif;  
 }
 
 .info-text {
@@ -710,7 +707,6 @@ nav {
   line-height: 1.5;
   color: #666666;
   margin: 2px 0;
-  font-family: Arial, sans-serif;
 }
 
 .btn-edit{
@@ -736,7 +732,6 @@ nav {
   font-weight: 500;
   margin-bottom: 28px;
   color: #222222;
-  font-family: Arial, sans-serif;
 }
 
 .summary-row{
@@ -748,13 +743,11 @@ nav {
 
 .row-label{
   color: #555555;
-  font-family: Arial, sans-serif;
 }
 
 .row-value{
   font-weight: 500;
   color: #111111;
-  font-family: Arial, sans-serif;
 }
 
 .summary-divider{
@@ -767,14 +760,12 @@ nav {
   font-weight: 600;
   font-size: 0.95rem;
   margin-top: 8px;
-  font-family: Arial, sans-serif;
 }
 
 .shipping-estimate{
   font-size: 0.78rem;
   color: #777777;
   margin: 22px 0 25px 0;
-  font-family: Arial, sans-serif;
 }
 
 .btn-pay{
@@ -788,7 +779,6 @@ nav {
   letter-spacing: 2px;
   cursor: pointer;
   transition: backgraund-color 0.2s ease;
-  font-family: Arial, sans-serif;
 }
 
 .btn-pay:hover{
