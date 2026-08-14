@@ -1,3 +1,217 @@
+/*  بداية القسم الخاص بماريا عيشان*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fcfcfc;
+}
+
+.product-details {
+    width: 1126px;
+    height: 507px;
+    max-width: 95%;
+    margin: 111px auto 40px auto; /* Margin-top = 111px */
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    font-size: 12px;
+    color: #888;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}
+
+.product-container {
+    display: flex;
+    gap: 96px; 
+    align-items: flex-start;
+}
+
+.product-image {
+    width: 465px;
+    height: 507px;
+}
+
+.product-image img {
+    width: 100%;
+    max-width: 480px;
+    height: 507px;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+.product-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-title {
+    font-size: 36px;
+    font-weight: 400;
+    font-family: 'Prosto One', sans-serif;
+    color: #111;
+    margin: 0;
+    line-height: 44px;
+    letter-spacing: 0%;
+}
+
+.product-description {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.product-tags {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #444;
+}
+
+.product-price {
+    font-size: 36px;
+    font-family:'Prosto One', sans-serif; 
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0%;
+    color: #282828;
+}
+
+.product-variants .label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    /* margin-bottom: 8px; */
+    font-family: Montserrat;
+}
+
+.variant-buttons {
+    display: flex;
+    height: 123px;
+
+    width:574px ;
+    padding: 10px 0px;
+    gap:40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.variant-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 70px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    padding: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.variant-card svg {
+    margin-bottom: 4px;
+}
+
+.variant-card span {
+    font-size: 14px;
+    color: #282828;
+    font-weight:400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap;
+}
+
+.variant-card.active {
+}
+
+.variant-card.active span {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.product-actions {
+    display: flex;
+    /* gap: 23px; */
+
+    width:383 ;
+    height:56 ;
+    align-items: center;
+    margin-top: 8px;
+    flex-direction: row;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 6px 14px;
+    gap: 14px;
+}
+
+.quantity button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.quantity span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.add-to-bag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 264px;
+    height: 56px;
+    padding: 10px 24px 10px 16px;
+    gap: 8px;
+    background-color: #282828;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.add-to-bag:hover {
+    background-color: #1c1c1c;
+}
+.add-to-bag {
+  
+    background-color: #282828;
+    color: #ffffff;
+    padding: 10px 24px 10px 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.add-to-bag:hover {
+    background-color: #1c2636;
+}
+
+/*   نهاية القسم الخاص بماريا عيشان*/
 * {
   margin: 0;
   padding: 0;
