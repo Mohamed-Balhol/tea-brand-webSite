@@ -543,7 +543,6 @@ nav {
 }
 /*   نهاية القسم الخاص ب امنية */
 
-
 /*  بداية القسم الخاص ب مليون */
 
 .our-collections {
@@ -623,8 +622,7 @@ nav {
     height: 280px;
   }
 }
- /* نهاية القسم الخاص ب مليون */
-
+/* نهاية القسم الخاص ب مليون */
 
 /*   بداية القسم الخاص غادة الزبيدي */
 
@@ -677,7 +675,6 @@ nav {
   align-items: flex-start;
   width: 100%;
   margin-bottom: 70px;
-
 }
 
 .delivery-details {
@@ -695,7 +692,7 @@ nav {
   margin-bottom: 22px;
 }
 
-.info-label{
+.info-label {
   font-size: 0.85rem;
   color: #333333;
   font-weight: 500;
@@ -709,7 +706,7 @@ nav {
   margin: 2px 0;
 }
 
-.btn-edit{
+.btn-edit {
   display: inline-block;
   font-size: 0.75rem;
   font-weight: 500;
@@ -720,55 +717,55 @@ nav {
   text-decoration: underline;
 }
 
-.order-summary{
+.order-summary {
   flex: 0.95;
   background-color: #f6f7f8;
   padding: 35px 30px;
   border-radius: 2px;
 }
 
-.summary-title{
+.summary-title {
   font-size: 1.05rem;
   font-weight: 500;
   margin-bottom: 28px;
   color: #222222;
 }
 
-.summary-row{
+.summary-row {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
   font-size: 0.82rem;
 }
 
-.row-label{
+.row-label {
   color: #555555;
 }
 
-.row-value{
+.row-value {
   font-weight: 500;
   color: #111111;
 }
 
-.summary-divider{
+.summary-divider {
   border: none;
   border-top: 1px solid #e0e0e0;
   margin-top: 18px 0;
 }
 
-.total-row{
+.total-row {
   font-weight: 600;
   font-size: 0.95rem;
   margin-top: 8px;
 }
 
-.shipping-estimate{
+.shipping-estimate {
   font-size: 0.78rem;
   color: #777777;
   margin: 22px 0 25px 0;
 }
 
-.btn-pay{
+.btn-pay {
   background-color: #1a1a1a;
   color: #ffffff;
   border: none;
@@ -781,7 +778,7 @@ nav {
   transition: backgraund-color 0.2s ease;
 }
 
-.btn-pay:hover{
+.btn-pay:hover {
   background-color: #000000;
 }
 /*   نهاية القسم الخاص غادة الزبيدي */
