@@ -543,6 +543,7 @@ nav {
 }
 /*   نهاية القسم الخاص ب امنية */
 
+
 /*  بداية القسم الخاص ب مليون */
 
 .our-collections {
@@ -621,4 +622,166 @@ nav {
   .card-image {
     height: 280px;
   }
-} /* نهاية القسم الخاص ب مليون */
+}
+ /* نهاية القسم الخاص ب مليون */
+
+
+/*   بداية القسم الخاص غادة الزبيدي */
+
+.main-content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.checkout-stepper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px 0 50px 0;
+  font-size: 0.82rem;
+  letter-spacing: 1px;
+  color: #a8a8a8;
+  font-weight: 400;
+}
+
+.checkout-stepper .step {
+  display: flex;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+.checkout-stepper .step.active {
+  color: #111111;
+  font-weight: 500;
+}
+.checkout-stepper .step.completed {
+  color: #555555;
+}
+
+.checkout-stepper .step-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 0 30px;
+}
+
+.checkout-wrapper {
+  display: flex;
+  grid-template-columns: 1fr 380px;
+  gap: 60px;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 70px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.delivery-details {
+  flex: 1.2;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+  color: #222222;
+}
+
+.info-block {
+  margin-bottom: 22px;
+}
+
+.info-label{
+  font-size: 0.85rem;
+  color: #333333;
+  font-weight: 500;
+  margin-bottom: 4px;  
+}
+
+.info-text {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #666666;
+  margin: 2px 0;
+}
+
+.btn-edit{
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 15px;
+  color: #c5b358;
+  letter-spacing: 0.5px;
+  text-decoration: underline;
+}
+
+.order-summary{
+  flex: 0.95;
+  background-color: #f6f7f8;
+  padding: 35px 30px;
+  border-radius: 2px;
+}
+
+.summary-title{
+  font-size: 1.05rem;
+  font-weight: 500;
+  margin-bottom: 28px;
+  color: #222222;
+}
+
+.summary-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  font-size: 0.82rem;
+}
+
+.row-label{
+  color: #555555;
+}
+
+.row-value{
+  font-weight: 500;
+  color: #111111;
+}
+
+.summary-divider{
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin-top: 18px 0;
+}
+
+.total-row{
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-top: 8px;
+}
+
+.shipping-estimate{
+  font-size: 0.78rem;
+  color: #777777;
+  margin: 22px 0 25px 0;
+}
+
+.btn-pay{
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: none;
+  padding: 14px;
+  width: 100%;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: backgraund-color 0.2s ease;
+}
+
+.btn-pay:hover{
+  background-color: #000000;
+}
+
+/* نهاية القسم الخاص ب غادة الزبيدي */
